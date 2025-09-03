@@ -9,5 +9,7 @@
   "iot_class": "local_polling",
   "integration_type": "hub",
   "loggers": ["custom_components.pifire"],
-  "config_flow": true
+  "config_flow": true,
+  "icon": "icon",
+  "logo": "logo"
 }

@@ -64,3 +64,6 @@ config/
 
 This project’s logo uses the [Orbitron](https://www.theleagueofmoveabletype.com/orbitron) font by Matt McInerney, licensed under the [SIL Open Font License](https://scripts.sil.org/OFL).
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
