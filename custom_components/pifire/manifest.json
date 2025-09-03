@@ -1,0 +1,12 @@
+{
+  "domain": "pifire",
+  "name": "PiFire",
+  "version": "0.1.0",
+  "documentation": "https://nebhead.github.io/PiFire-Pages/",
+  "issue_tracker": "https://github.com/nebhead/PiFire/issues",
+  "requirements": [],
+  "codeowners": ["@VoidLock"],
+  "iot_class": "local_polling",
+  "integration_type": "hub",
+  "loggers": ["custom_components.pifire"]
+}
