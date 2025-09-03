@@ -1,14 +1,17 @@
+"""Constants for the PiFire integration."""
+
 from __future__ import annotations
 
+from homeassistant.const import Platform
+
 DOMAIN = "pifire"
-CONF_BASE_URL = "base_url"
+CONF_HOST = "host"
 
-# We only ship sensors here; you can add other platforms later.
-PLATFORMS: list[str] = ["sensor"]
-
-# Keys in hass.data
-CLIENT = "client"
-COORDINATOR = "coordinator"
-
-DEFAULT_UPDATE_SECONDS = 5
-API_CURRENT = "/api/current"
+PLATFORMS: list[Platform] = [
+    Platform.SENSOR,
+    Platform.SELECT,
+    Platform.NUMBER,
+    Platform.BUTTON,
+    Platform.SWITCH,
+    Platform.BINARY_SENSOR,
+]
