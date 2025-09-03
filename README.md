@@ -46,6 +46,7 @@ config/
 └── translations/
 └── en.json
 ```
+
 ---
 
 ## 🚀 Installation
