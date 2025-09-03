@@ -8,5 +8,7 @@
   "codeowners": ["@VoidLock"],
   "iot_class": "local_polling",
   "integration_type": "hub",
-  "loggers": ["custom_components.pifire"]
+  "loggers": ["custom_components.pifire"],
+  "zeroconf": ["_pifire._tcp.local."],
+  "brand": "pifire"
 }
