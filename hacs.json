@@ -1,0 +1,7 @@
+{
+  "name": "PiFire",
+  "content_in_root": false,
+  "domains": ["pifire"],
+  "iot_class": "local_polling",
+  "render_readme": true
+}
