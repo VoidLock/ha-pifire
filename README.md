@@ -59,3 +59,8 @@ config/
    ```bash
    cd config/custom_components
    git clone https://github.com/voidlock/pifire-ha.git pifire
+
+## Font Attribution
+
+This project’s logo uses the [Orbitron](https://www.theleagueofmoveabletype.com/orbitron) font by Matt McInerney, licensed under the [SIL Open Font License](https://scripts.sil.org/OFL).
+
