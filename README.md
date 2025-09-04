@@ -7,7 +7,7 @@
 Home Assistant custom integration for [PiFire](https://github.com/nebhead/PiFire).  
 This integration allows you to monitor and control your PiFire-powered pellet grill directly from Home Assistant.
 
-
+## Big shoutout and thanks to [@nebhead](https://github.com/nebhead) for making PiFire Possible
 📚 Official PiFire documentation is available here:  
 👉 [PiFire Docs](https://nebhead.github.io/PiFire-Pages/)
 
