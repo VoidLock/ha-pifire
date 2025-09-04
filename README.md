@@ -67,7 +67,7 @@ You can install the PiFire integration for Home Assistant either **via HACS** (r
 1. Make sure you have [HACS](https://hacs.xyz/) installed in your Home Assistant.
 2. In Home Assistant, go to **HACS → Integrations**.
 3. Open the menu (⋮) in the top right → **Custom repositories**.
-4. Add this repository URL:```custom_components/pifire```
+4. Add this repository URL:```https://github.com/VoidLock/ha-pifire```
 Category: **Integration**
 
 5. Back in HACS, search for **PiFire** under Integrations.
@@ -87,19 +87,19 @@ Your setup should look like:
 ```
 config/
 └── custom_components/
-└── pifire/
-├── init.py
-├── manifest.json
-├── const.py
-├── config_flow.py
-├── sensor.py
-├── number.py
-├── button.py
-├── select.py
-├── pifire_client.py
-├── strings.json
-└── translations/
-└── en.json
+    └── pifire/
+    ├── init.py
+    ├── manifest.json
+    ├── const.py
+    ├── config_flow.py
+    ├── sensor.py
+    ├── number.py
+    ├── button.py
+    ├── select.py
+    ├── pifire_client.py
+    ├── strings.json
+    └── translations/
+        └── en.json
 ```
 4. **Restart Home Assistant**.
 5. Go to **Settings → Devices & Services → Add Integration**.
